@@ -1,6 +1,6 @@
 Desktop Assistant named as----->J.A.R.V.I.S.
 
-  J.A.R.V.I.S. (Just A Rather Very Intelligent System) is a Python-based personal assistant inspired by Tony Stark's assistant in the Marvel Cinematic Universe. It is capable of performing various tasks such as opening applications, browsing the web, sending emails, controlling media playback, providing system information, and much more, all through voice commands.
+J.A.R.V.I.S. (Just A Rather Very Intelligent System) is a Python-based personal assistant inspired by Tony Stark's assistant in the Marvel Cinematic Universe. Although this program is limited in its code and efficiency, it serves as an excellent project for beginners. It's capable of performing various tasks such as opening applications, browsing the web, sending emails, controlling media playback, and providing system information, all through voice commands. While it currently supports only 44 commands, it can still be quite useful for smaller tasks like shutdown, sleep, adjusting brightness and volume, searching and playing YouTube videos, and controlling playback speed. Integrating different APIs like OpenAI could further enhance its productivity and usefulness.
 
 Features
 
@@ -37,7 +37,9 @@ Prerequisites
   3.Microsoft Windows operating system (some functionalities may not be supported on other operating systems)
 
 
+Converting  .py file to .exe file
 
+      pyinstaller --onefile --noconsole main.py
 
 Interface:
         ![Screenshot 2024-04-10 035355](https://github.com/miyasajid19/desktop-assistant/assets/166320427/dd48287a-86be-4548-9133-8195aa462ccc)
